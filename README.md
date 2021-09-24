@@ -5,11 +5,19 @@
 
 ### Notes
 
-#### Deploy contracts using Truffle
+#### Truffle commands
 * required to run ganache in the background before migration
 ```
+// to deploy contracts using Truffle
 truffle migrate
 
 // to replace deployed contracts
 truffle migrate --reset
+
+// to compile contracts
+truffle compile
+
+// to test
+truffle test
 ```
+
